@@ -4,3 +4,7 @@
     background-color: var(--primary);
     border-bottom: 10px solid var(--secondary);
 }
+
+.section .main-title {
+    margin-bottom: 60px;
+}
