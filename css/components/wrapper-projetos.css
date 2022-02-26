@@ -1,0 +1,26 @@
+.wrapper-projetos {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 140px;
+}
+
+.wrapper-projetos .card {
+    width: 280px;
+    height: 280px;
+    background-color: var(--primary);
+    background-size: contain;
+    box-shadow: 10px 10px 0 #FFF;
+}
+
+.wrapper-projetos .card.-portifolio {
+    background-color: var(--secondary);
+    background-image: url(../../assets/images/carl.svg);
+}
+
+.wrapper-projetos .card.-renatinha {
+    background-image: url(../../assets/images/renatinha.png);
+}
+
+.wrapper-projetos .card.-poketwo {
+    background-image: url(../../assets/images/poketeo.png);
+}
