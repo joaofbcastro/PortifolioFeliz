@@ -1,16 +1,30 @@
+:root {
+    --primary: #42D9C8;
+    --secondary: #F25A70;
+}
+
 header {
     display: flex;
     justify-content: space-between;
-    background-color: #7C5E99;
+    align-items: center;
+    background-color: var(--secondary);
     border-bottom: 10px solid #000;
     padding: 10px 20px;
+}
+
+h1 {
+    color: #FFF;
+    font-family: 'Press Start 2P', sans-serif;
+    text-shadow: 5px 5px 0px #000;
+    text-decoration: none;
 }
 
 nav {
     text-align: right;
 }
 
-a {
+
+nav a {
     display: inline-flex;
     align-items: center;
     color: #FFF;
@@ -21,16 +35,9 @@ a {
     margin-right: 30px;
 }
 
-a::before {
+nav a::before {
     content: "";
-    background-color: #F25A70;
-    width: 10px;
-    height: 10px;
-    margin-right: 10px;
-}
-
-spam {
-    background-color: #F25A70;
+    background-color: var(--primary);
     width: 10px;
     height: 10px;
     margin-right: 10px;
@@ -38,13 +45,45 @@ spam {
 
 #button {
     display: inline-block;
-    background-color: #F25A70;
+    color: #000;
+    background-color: var(--primary);
     box-shadow: 5px 5px 0px #000;
     padding: 10px 20px;
     margin-right: 0;
 }
 
 #button:hover {
+    color: #FFF;
     background-color: #000;
-    box-shadow: 5px 5px 0px #F25A70;
+    box-shadow: 5px 5px 0px var(--primary);
+}
+
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 627px;
+    height: 184px;
+    margin-left: 91px;
+    margin-top: 116px;
+    background: #3A4042;
+    box-shadow: 10px 10px 0px #000;
+}
+
+h2 {
+    display: block;
+    color: var(--primary);
+    font-size: 40px;
+    margin-bottom: 28px;
+    font-family: 'Press Start 2P', sans-serif;
+    text-shadow: 4px 4px 0px #000;
+}
+
+h3 {
+    display: block;
+    color: #FFF;
+    font-size: 30px;
+    font-family: 'Press Start 2P', sans-serif;
+    text-shadow: 4px 4px 0px #000;
 }

@@ -1,8 +1,4 @@
-body, a {
+body, a, h1, h2, h3 {
     margin: 0;
     padding: 0;
-}
-
-img {
-    width: 50px;
 }
