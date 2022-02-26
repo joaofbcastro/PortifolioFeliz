@@ -12,8 +12,9 @@ header {
     padding: 10px 20px;
 }
 
-h1 {
+#logo {
     color: #FFF;
+    font-size: 40px;
     font-family: 'Press Start 2P', sans-serif;
     text-shadow: 5px 5px 0px #000;
     text-decoration: none;
@@ -22,7 +23,6 @@ h1 {
 nav {
     text-align: right;
 }
-
 
 nav a {
     display: inline-flex;
@@ -56,34 +56,4 @@ nav a::before {
     color: #FFF;
     background-color: #000;
     box-shadow: 5px 5px 0px var(--primary);
-}
-
-#title {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 627px;
-    height: 184px;
-    margin-left: 91px;
-    margin-top: 116px;
-    background: #3A4042;
-    box-shadow: 10px 10px 0px #000;
-}
-
-h2 {
-    display: block;
-    color: var(--primary);
-    font-size: 40px;
-    margin-bottom: 28px;
-    font-family: 'Press Start 2P', sans-serif;
-    text-shadow: 4px 4px 0px #000;
-}
-
-h3 {
-    display: block;
-    color: #FFF;
-    font-size: 30px;
-    font-family: 'Press Start 2P', sans-serif;
-    text-shadow: 4px 4px 0px #000;
 }
