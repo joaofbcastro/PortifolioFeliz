@@ -9,7 +9,10 @@
     margin-bottom: 60px;
 }
 
-.section.-projetos {
+.section.-bgBlack {
     background-color: #000;
-    border-bottom: 10px solid var(--primary);
+}
+
+.section.-bdPrimary {
+    border-color: var(--primary);
 }

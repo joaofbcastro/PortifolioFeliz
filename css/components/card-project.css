@@ -1,0 +1,17 @@
+.card-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 280px;
+    height: 280px;
+    background-color: var(--primary);
+    box-shadow: 10px 10px 0 #FFF;
+}
+
+.card-project .logo {
+    max-width: 100%;
+}
+
+.card-project.-secondary {
+    background-color: var(--secondary);
+}
