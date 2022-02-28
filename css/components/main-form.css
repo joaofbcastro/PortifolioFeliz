@@ -1,7 +1,6 @@
 .main-form {
     background-color: #3A4042;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 50px 40px;
 }
 
 .main-form .main-input {
@@ -10,4 +9,8 @@
 
 .main-form .main-input.-textarea {
     margin-bottom: 40px;
+}
+
+.main-form .main-button {
+    width: 100%;
 }
