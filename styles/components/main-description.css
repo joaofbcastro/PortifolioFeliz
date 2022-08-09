@@ -1,5 +1,5 @@
 .main-description {
-  color: #fff;
+  color: var(--white);
   font-size: 1.875rem;
   font-weight: 300;
   line-height: 1.3;

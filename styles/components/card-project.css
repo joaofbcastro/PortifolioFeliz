@@ -5,7 +5,7 @@
   max-width: 17.5rem;
   max-height: 17.5rem;
   background-color: var(--primary);
-  box-shadow: 10px 10px 0 #fff;
+  box-shadow: 10px 10px 0 var(--white);
 }
 
 .card-project .logo {

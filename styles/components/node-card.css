@@ -44,5 +44,5 @@
 }
 
 .node-card.-white .logo {
-  background-color: #fff;
+  background-color: var(--white);
 }

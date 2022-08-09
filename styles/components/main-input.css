@@ -7,6 +7,7 @@
   border-radius: none;
   padding-left: 0.3rem;
   padding-right: 0.3rem;
+  background-color: var(--white);
 }
 
 .main-input.-textarea {

@@ -6,6 +6,6 @@
 }
 
 .main-title.-second {
-  color: #fff;
+  color: var(--white);
   text-align: center;
 }
