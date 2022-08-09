@@ -1,23 +1,23 @@
 .button-arrow {
-    width: 50px;
-    height: 50px;
-    background-color: var(--primary);
-    box-shadow: 5px 5px 0 #000;
-    cursor: pointer;
+  width: 3.125rem;
+  height: 3.125rem;
+  background-color: var(--primary);
+  box-shadow: 5px 5px 0 #000;
+  cursor: pointer;
 }
 
 .button-arrow .content {
-    display: none;
+  display: none;
 }
 
 .button-arrow::before {
-    content: "";
-    display: block;
-    border: 15px solid transparent;
-    border-left: 26px solid #fff;
-    transform: translateX(6px)
+  content: "";
+  display: block;
+  border: 15px solid transparent;
+  border-left: 26px solid #fff;
+  transform: translateX(6px);
 }
 
 .button-arrow.-left:before {
-    transform: rotate(180deg) translateX(12px);
+  transform: rotate(180deg) translateX(12px);
 }

@@ -1,48 +1,48 @@
 .node-card {
-    display: inline-flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    margin-left: 25px;
-    margin-right: 25px;
-    box-sizing: border-box;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  box-sizing: border-box;
 }
 
-.node-card::before{
-    position: absolute;
-    box-sizing: border-box;
-    content: "";
-    height: 40px;
-    border-left: 5px dashed #000;
-    bottom: 145px;
+.node-card::before {
+  position: absolute;
+  box-sizing: border-box;
+  content: "";
+  height: 2.5rem;
+  border-left: 5px dashed #000;
+  bottom: 9rem;
 }
 
 .node-card .title {
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 25px;
-    font-weight: 400;
-    color: var(--primary);
-    margin-bottom: 50px;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--primary);
+  margin-bottom: 3.125rem;
 }
 
 .node-card .logo {
-    display: flex;
-    align-items: center;
-    height: 140px;
-    border: 5px solid #000;
-    padding-left: 20px;
-    padding-right: 20px;
-    background-color: #CEB02A;
+  display: flex;
+  align-items: center;
+  height: 8.75rem;
+  border: 5px solid #000;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: #ceb02a;
 }
 
 .node-card .logo img {
-    max-height: 100%;
+  max-height: 100%;
 }
 
 .node-card.-clean .logo {
-    padding: 0;
+  padding: 0;
 }
 
 .node-card.-white .logo {
-    background-color: #FFF;
+  background-color: #fff;
 }
